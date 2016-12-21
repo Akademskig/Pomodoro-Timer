@@ -1,0 +1,101 @@
+.pomodoro {
+  text-align: center;
+  background-image: url("pomodoro.jpg"); 
+ background-size: 600px;
+  padding: 10px;
+  padding-top: 130px;
+  padding-left: 10px;
+  //background-color: #8A0404;
+  width: 600px;
+  height: 615px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  vertical-align: top;
+  //box-shadow: -50px 15px 30px #151515, inset 10px -10px 60px #000000, inset -7px 7px 60px #FA5858;
+  float: middle;
+  font-family: "Arvo", serif;
+}
+
+.display {
+  text-align: center;
+  margin: auto;
+  align: middle;
+  margin-top: 100px;
+  margin-bottom: -50px;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  background-color: #758A79;
+  width: 170px;
+  height: 80px;
+  border-radius: 0px;
+  border-color: black;
+  border-style: solid;
+  font-size: 45px;
+  color: black;
+  font-family: "Arvo", serif;
+  box-shadow: inset -5px 5px 5px #000000;
+  text-shadow: -2px 3px 4px #1C1C1C;
+}
+
+.buttons {
+  padding: 15px;
+  margin: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+#b {
+  border-radius: 50px;
+  //padding:15px;
+  // background-color:#000000;
+  color: #A9BCF5;
+  //box-shadow: inset -5px 5px 10px #2E2E2E;
+}
+
+.start {
+  margin-top: -40px;
+  font-size: 20px;
+  height: 90px;
+  width: 90px;
+  background-color: #0A122A;
+}
+
+.stop,
+.reset {  
+  margin-top: 30px;
+  margin-left: 70px;
+  margin-right: 70px;
+  height: 60px;
+  width: 60px;
+  background-color: #0B2161;
+}
+
+.minus {
+  float: left;
+  margin-top: 120px;
+  margin-left: 140px;
+}
+
+.plus {
+  float: right;
+  margin-right: 140px;
+  margin-top: 120px;
+}
+
+.plus,
+.minus {
+  border-radius: 20px;
+  font-size: 20px;
+  width: 33px;
+  height: 33px;
+  background-color: black;
+  color: white;
+}
+.text
+{
+  color:black;
+  font-size:25px;  
+}
