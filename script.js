@@ -1,7 +1,7 @@
 $("document").ready(function() {
 
   var startmins = 25;
-  var startsecs = "0";
+  var startsecs = "00";
   var mins = startmins;
   var secs = startsecs;
 
@@ -23,12 +23,11 @@ $("document").ready(function() {
   var start;
   var stop;
   var x = 0;
-  console.log(x);
-  
-    $(".start").on("click", function() {
-      x += 1;
-      console.log(x);
-      if(x==1){
+
+  $(".start").on("click", function() {
+    x += 1;
+    console.log(x);
+    if (x == 1) {
       stop = window.setInterval(function() {
         if ($(".display").html() != "0 : 0") {
           secs = secs - 1;
@@ -36,17 +35,17 @@ $("document").ready(function() {
             secs = 59;
             mins = mins - 1;
           }
-         
           start = mins + " : " + secs;
           $(".display").html(start);
-        } else if ($(".display").html() == "0 : 0") {
+        } 
+        else if ($(".display").html() == "0 : 0") {
           window.clearInterval(stop);
           alert("Go on break!");
         }
       }, 1000)
-      }
-    })
- 
+    }
+  })
+
   $(".stop").on("click", function() {
     x = 0;
     window.clearInterval(stop);
